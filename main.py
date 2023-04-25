@@ -8,10 +8,9 @@ app = Flask(__name__)
 
 # Telegram API credentials
 
-api_id = os.environ.get('API_ID')
+api_id = 988074
 
-api_hash = os.environ.get('API_HASH')
-
+api_hash = 'a5ec8b7b6dbeedc2514ca7e4ba200c13'
 # Initialize Telegram client
 
 client = TelegramClient('session', api_id, api_hash)
